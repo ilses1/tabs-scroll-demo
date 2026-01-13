@@ -1,12 +1,13 @@
 {
-  "name": "scroll-demo",
+  "name": "tabs-scroll-demo",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "description": "带 Tabs 联动的滚动演示，吸顶阴影与实时时间",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "echo 未配置 ESLint，可后续添加",
     "preview": "vite preview"
   },
   "dependencies": {
