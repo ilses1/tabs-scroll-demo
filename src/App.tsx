@@ -169,14 +169,6 @@ const App: React.FC = () => {
         }
       };
     }
-
-    // 组件卸载时清理
-    return () => {
-      // 移除滚动事件监听
-      if (scrollContainer) {
-        scrollContainer.removeEventListener("scroll", handleScroll);
-      }
-    };
   }, [isManualScrolling]);
 
   // 不使用 IntersectionObserver
